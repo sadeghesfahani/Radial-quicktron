@@ -1,5 +1,7 @@
 const canvas = document.querySelector('canvas');
 
+console.log(canvas.onclick.toString())
+
 
 const getFunctions = ()=>{
     return Object.keys(window).filter(key => typeof window[key] === 'function');
